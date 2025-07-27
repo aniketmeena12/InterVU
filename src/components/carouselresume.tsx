@@ -5,7 +5,7 @@ export function ResumeCarousel() {
     {
       button: "View Template",
       src: "/assets/img/resume1.png",
-      link: "https://www.canva.com/design/DAGtEbJwTx4/c614LqVPwNITzif3K4ajdg/edit",
+      link: "https://www.canva.com/design/DAGtEbJwTx4/c614LqVPwNITzif3K4ajdg/edit?utm_content=DAGtEbJwTx4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       width: 700,
       height: 550,
     },
