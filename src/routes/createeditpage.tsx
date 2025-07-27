@@ -26,7 +26,7 @@ const CreateEditPage = () => {
   } , [interviewId]);  
   return (
     <div className="my-4 flex-col w-full">
-      <FormMockInterview intialData={interview}/>
+      <FormMockInterview initialData={interview}/>
     </div>
   )
 }

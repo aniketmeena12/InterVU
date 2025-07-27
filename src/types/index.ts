@@ -6,6 +6,7 @@ export interface User {
     email: string;
     createdAt: Timestamp | FieldValue;
     updateAt: Timestamp | FieldValue;
+    imageUrl: string;
 }
 export interface Interview {
     id: string;

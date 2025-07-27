@@ -6,6 +6,7 @@ import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
+
 const AuthHandler = () => {
     const { isSignedIn } = useAuth();
     const { user } = useUser();
@@ -28,7 +29,7 @@ const AuthHandler = () => {
                             email: user.primaryEmailAddress?.emailAddress || "N/A",
                             imageUrl: user.imageUrl,
                             createdAt: serverTimestamp(),
-                            updatedAt: serverTimestamp()
+                            updateAt: serverTimestamp()
                         };
                         await setDoc(doc(db, "users", user.id), userData);
                     }
